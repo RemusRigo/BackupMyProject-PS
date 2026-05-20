@@ -31,7 +31,10 @@ Inside the archive will be a folder named with the current date and inside you w
 * if you want to create a folder containing the date and time inside the zip:
   *$folderStructure = Get-Date -Format "yyyy-MM-dd HH:mm:ss"*
 
-## 
+## Statistics
+
+![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/RemusRigo/BackupMyProject-PS/total)
+
 
 ## Roadmap
 
