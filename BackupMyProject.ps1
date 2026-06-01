@@ -1,7 +1,7 @@
 #---------------------------------------------------------------------------------------------------------------------------
 # Backup My Project
-#  © 2025 Remus Rigo
-# v1.2.20250505
+#   © 2025 Remus Rigo
+#      v1.2 2026-06-01
 
 param (
     [Parameter(Mandatory=$true)]
@@ -64,7 +64,7 @@ function BackupFile($inputLocation, $zipFolderStructure)
 
 #---------------------------------------------------------------------------------------------------------------------------
 
-$folderStructure = Get-Date -Format "yyyy.MM.dd"
+$folderStructure = Get-Date -Format "yyyy-MM-dd HH-mm"
 
 if (Test-Path $Location -PathType Container) # Location is path ------------------------------------------------------------
 {
