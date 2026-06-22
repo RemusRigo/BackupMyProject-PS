@@ -35,6 +35,8 @@ Inside the archive will be a folder named with the current date and inside you w
 
 ## Statistics
 
+![status](https://img.shields.io/badge/status-completed-brightgreen)
+<br>
 ![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/RemusRigo/BackupMyProject-PS/total)
 
 
